@@ -38,12 +38,12 @@ render(){
     <div className="card1">
       <h2 className="h2">Hi there <span class="wave">👋</span></h2>
       <p className="about">I am Jatin, Sophomore at the Indian Institute of Information Technology, Vadodara. 
-      I am a Cyber Security enthusiast and a Web Developer. I like to work on both. <p>In Cyber Secutity, I love 
-      learning about Web Secutity and Computer Networking. I have also done a course on Computer Networking 
-      named "Bits and Bytes of Computer Networking" in which I get to learn about basic concept of Networking. 
-      It helped me to learn about the Cyber Security in efficient way. To practice my hacking skills, I usually
-       do CTFs(Capture the Flag) problem on Tryhackme Platform and these CTFs are quite intresting and help me to 
-       learn new concept. </p>
+      I am a Cyber Security enthusiast and a Web Developer. I like to work on both. <p>In Cyber Security, I love 
+      learning about Web Security and Computer Networking. I have also done a course on Computer Networking 
+      named "Bits and Bytes of Computer Networking" in which I got to learn about basic concept of Networking. 
+      It helped me to learn about Cyber Security in efficient way. To practice my hacking skills, I usually
+       do CTFs(Capture the Flags) problem on TryHackMe Platform and these CTFs are quite intresting and help me to 
+       learn new concepts. </p>
         <p> Apart from cyber security, I like Web Development with React.js, Node.js, and mongoDb.</p>
         <p>
           In my free time I like to watch web series and reading books(mostly related to Hacking Stuff 😅🤩).
