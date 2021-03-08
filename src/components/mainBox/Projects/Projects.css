@@ -1,0 +1,6 @@
+.projects_root{
+    /* border: 2px solid red; */
+    -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+}

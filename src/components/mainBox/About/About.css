@@ -1,0 +1,141 @@
+
+
+.about{
+    font-family: Verdana, sans-serif;
+    color: wheat;
+    font-weight: 530;
+}
+
+
+.card1{
+    border: 3px solid white;
+    border-radius: 22px;
+    width: 65%;
+    padding: 3rem 1rem;
+    /* margin: 10rem; */
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.wave {
+    animation-name: wave-animation;  
+    animation-duration: 2.5s;        
+    animation-iteration-count: infinite;  
+    transform-origin: 70% 70%;       
+    display: inline-block;
+  }
+
+.potter{
+    position:relative;
+    top: 3px;
+    margin: 0px 2px;
+    width: 15px;
+    height: 15px;
+}
+
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  
+    100% { transform: rotate( 0.0deg) }
+  }
+
+  @media only screen and (min-width: 769px) {
+    .image2,.name_about,.socialMedia_about{
+        display: none;
+    }
+    .card1{
+        width: 80%;
+        padding: 3rem 1rem;
+        margin-top: 9rem;
+        margin-left: 5%;
+    }
+    .potter{
+        display: none;
+    }
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    .card1{
+        width: 80%;
+        padding: 3rem 1rem;
+        margin-top: .1rem;
+        margin-left: 5%;
+        margin-bottom: 8rem;
+
+    }
+    .h2{
+        font-size: 1.1rem;
+    }
+    .about{
+        font-size:14px;
+    }
+
+    .image2{
+        margin:0rem;
+        width: 150px;
+        height: 150px;
+        border: 2px solid white;
+        border-radius: 50%;
+    }
+
+    .about_main {
+        /* border: 2px solid red; */
+        margin: 5rem 3rem 1rem;
+        text-align: center;
+    }
+    .name_about{
+        color: white;
+        margin: 0;
+        font-size: 2rem;
+        font-weight: 550;
+        text-align: center;
+        /* border: 2px solid red; */
+    }
+
+    .socialMedia_about i{
+        padding: .1rem 0rem;
+        margin: 0 10px;
+        font-size: 2.2rem;
+        color: aliceblue;
+        transition: .4s;
+        /* border: 2px solid blue; */
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+    }
+    .socialMedia_about{
+        /* border: 2px solid red; */
+        /* margin: 0 24%; */
+        margin-bottom: 0;
+    }
+    
+    /* .hackLogo_about{
+        width: 1.73em;
+        border: 2px solid red; 
+        position: absolute;
+        margin-top: .85rem;
+        margin-left: .4rem;
+        height: 1.73rem;
+        border-radius: 50%;
+        padding: .2rem;
+        color: aliceblue;
+        transition: .4s;
+    } */
+
+    .socialMedia_about i:hover,.hackLogo_about:hover{
+        transform: scale(1.2, 1.2);
+    }
+    #badge_about{
+       margin: .3rem;
+        /* border: 2px solid red; */
+    }
+  }
+
+

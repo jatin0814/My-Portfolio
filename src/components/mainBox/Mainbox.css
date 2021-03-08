@@ -1,0 +1,25 @@
+.mainbox_root{
+    margin-left: 20rem;
+    width: 90%;
+    /* background-color: #001f3f; */
+    /* border: 2px solid rebeccapurple; */
+    /* border: 2px solid red; */
+}
+
+/* 
+.particles{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -20;
+    background-color: black;
+    width: 100%;
+} */
+
+
+@media only screen and (max-width: 768px) {
+    .mainbox_root{
+        margin-left: 0rem;
+        width: 100%;
+    }
+}

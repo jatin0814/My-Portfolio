@@ -1,0 +1,71 @@
+.card{
+    border: 3px solid white;
+    border-radius: 22px;
+    width: 50%;
+    padding: 3rem;
+    margin: 6rem 12rem;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: wheat;
+  -webkit-touch-callout:none;
+        -webkit-user-select:none;
+        -khtml-user-select:none;
+        -moz-user-select:none;
+        -ms-user-select:none;
+        user-select:none;
+        -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+
+.card:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22);
+    font-weight: 0;
+}
+
+a{
+    color: white;
+    
+}
+.fa-github{
+    font-size: 3rem;
+    /* padding: 1rem; */
+}
+/* fa-link{
+    font-size: 2200px;
+}*/
+.icon{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (min-width: 769px) {
+    .image2,.name_about,.socialMedia_about{
+        display: none;
+    }
+    .card{
+        width: 50%;
+        padding: 3rem 1rem;
+        margin:0 20%;
+        margin-top: 9rem;
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+
+    .card{
+        width: 50%;
+        margin: 8rem 10%;
+        -webkit-touch-callout:none;
+        -webkit-user-select:none;
+        -khtml-user-select:none;
+        -moz-user-select:none;
+        -ms-user-select:none;
+        user-select:none;
+        -webkit-tap-highlight-color:rgba(0,0,0,0);
+    } 
+}
