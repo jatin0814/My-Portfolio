@@ -41,12 +41,12 @@ render(){
       I am a Cyber Security enthusiast and a Web Developer. I like to work on both. <p>In Cyber Security, I love 
       learning about Web Security and Computer Networking. I have also done a course on Computer Networking 
       named "Bits and Bytes of Computer Networking" in which I got to learn about basic concept of Networking. 
-      It helped me to learn about Cyber Security in efficient way. To practice my hacking skills, I usually
+      It helped me to learn about Cyber Security in efficient way. To practice my Hacking Skills, I usually
        do CTFs(Capture the Flags) problem on TryHackMe Platform and these CTFs are quite intresting and help me to 
        learn new concepts. </p>
-        <p> Apart from cyber security, I like Web Development with React.js, Node.js, and mongoDb.</p>
+        <p> Apart from Cyber Security, I like Web Development with React.js, Node.js, and MongoDb.</p>
         <p>
-          In my free time I like to watch web series and reading books(mostly related to Hacking Stuff 😅🤩).
+          In my free time, I like to watch web series and reading books(mostly related to Hacking Stuff 😅🤩).
           Also I'm a big fan of Harry Potter series<img src={potter} alt="potter" class="potter"/>.
         </p>
       </p>

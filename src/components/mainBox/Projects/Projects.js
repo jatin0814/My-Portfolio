@@ -4,7 +4,7 @@ import Project from "./Project/Project";
 
 class projects extends Component{
   state={
-    projects:[{image:'',name:'My-Portfolio',description:'A Portfolio React web app.',github:'https://github.com/jatin0814/My-Portfolio',deploy:'xyz'},
+    projects:[{image:'',name:'My-Portfolio',description:'A Portfolio web app build on React.',github:'https://github.com/jatin0814/My-Portfolio',deploy:'xyz'},
     {image:'',name:'Keriva-Frontend-2020',description:'IIITV Cultural Fest Kreiva 2020 website.',github:'https://github.com/kreiva-iiitv/keriva-frontend-2020',deploy:'xyz'},
     {image:'',name:'Face-Detection',description:'React web app which Detect faces in a picture.',
     github:'https://github.com/jatin0814/face-detection/tree/master',deploy:'xyz'},
